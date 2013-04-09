@@ -20,9 +20,9 @@ class Average{
       
       //Intro statement
       System.out.println("--------------------------");
-      System.out.println("  Enter a set of numbers");
+      System.out.println("  Enter a set of strings");
       System.out.println("  and this program");
-      System.out.println("  will find the average.");
+      System.out.println("  will find the average length.");
       System.out.println("  Enter average when");
       System.out.println("  you are done entering");
       System.out.println("  numbers.");
@@ -53,9 +53,12 @@ class Average{
             badinput = false;
          }
       }
-      if (count == 0){
+      if (count == 0)
+      {
          System.out.println("Nothing to average");
-      }else{
+      }
+      else
+      {
          System.out.println("\n\nAverage: " + total/count + "\n");
       }
    }
